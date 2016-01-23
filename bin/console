@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'date_misc'
+require 'pry'
+
+Pry.start
