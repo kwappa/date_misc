@@ -25,6 +25,20 @@ add misc methods to `Date`
 => 4
 ```
 
+- `Date#wday_name(latn = :ja)`
+    - returns name of wday in specified language
+- `Date#month_name(latn = :ja)`
+    - returns name of month in specified language
+
+```
+[1] pry(main)> Date.today
+=> #<Date: 2016-01-26 ((2457414j,0s,0n),+0s,2299161j)>
+[2] pry(main)> Date.today.wday_name
+=> "火"
+[3] pry(main)> Date.today.month_name
+=> "睦月"
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/date_misc.
