@@ -10,7 +10,7 @@ module DateMisc
       when 'yesterday'
         Date.today - 1
       else
-        Date.parse(date)
+        Date.parse(date_str)
       end
     rescue
       Date.today
