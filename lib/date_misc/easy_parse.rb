@@ -12,7 +12,7 @@ module DateMisc
       else
         Date.parse(date_str)
       end
-    rescue
+    rescue ArgumentError
       Date.today
     end
   end
