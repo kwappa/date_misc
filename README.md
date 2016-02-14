@@ -25,9 +25,9 @@ add misc methods to `Date`
 => 4
 ```
 
-- `Date#wday_name(latn = :ja)`
+- `Date#wday_name(lang = :ja)`
     - returns name of wday in specified language
-- `Date#month_name(latn = :ja)`
+- `Date#month_name(lang = :ja)`
     - returns name of month in specified language
 
 ```
