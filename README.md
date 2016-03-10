@@ -41,7 +41,7 @@ add misc methods to `Date`
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/date_misc.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kwappa/date_misc.
 
 ## License
 
